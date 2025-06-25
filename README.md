@@ -1,38 +1,6 @@
-# Torrent Scraper for PS4 Games
+project will be abandoned as it is
 
-## Overview
-This Python script scrapes PS4 game torrents from a specific website, downloads the `.torrent` files, and saves them along with metadata to your local machine. The script is designed to run efficiently with parallel processing.
-
-## Features
-- Scrapes game pages for torrent links
-- Extracts game metadata (year, genre, version, etc.)
-- Downloads `.torrent` files to a local directory
-- Logs collected files with metadata
-- Multi-threaded for faster processing
-
-## Requirements
-- Python 3.x
-- Required packages (install via `pip`):
-  ```
-  pip install requests beautifulsoup4 tqdm urllib3
-  ```
-
-## Usage
-1. Clone or download the script.
-2. Install the required dependencies.
-3. Run the script:
-   ```
-   python torrent_scraper.py
-   ```
-
-## Configuration
-- The script saves files to a `results` directory (automatically created).
-- Collected files and metadata are logged in `collectedfiles.txt`.
-- Adjust `MAX_WORKERS` in the script to control parallel threads.
-
-## Notes
-- The script includes a delay between requests to avoid overloading the server.
-- SSL warnings are disabled for compatibility.
+I’ve had to sell my PS4 recently to support my family during a tough time. It wasn’t an easy decision, but one I had to make. I still hope to eventually fund a PS5, not just to enjoy gaming again, but to contribute meaningfully to the PS5 and FPKG scenes in the future.
 
 ## Support & Donations
 This project is maintained by a developer working from their phone! If you find this tool useful, consider supporting the effort to upgrade to a full PC setup.
